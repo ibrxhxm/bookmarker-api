@@ -1,0 +1,43 @@
+2022-09-26 13:36:16.189  INFO 62060 --- [restartedMain] c.e.b.BookmarkerApiApplication           : Starting BookmarkerApiApplication using Java 17.0.2 on Ayubs-MacBook-Pro.local with PID 62060 (/Users/ayubibrahim/IdeaProjects/bookmarker-api/build/classes/java/main started by ayubibrahim in /Users/ayubibrahim/IdeaProjects/bookmarker-api)
+2022-09-26 13:36:16.195  INFO 62060 --- [restartedMain] c.e.b.BookmarkerApiApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-09-26 13:36:16.264  INFO 62060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-26 13:36:16.264  INFO 62060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-26 13:36:17.465  INFO 62060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-26 13:36:17.539  INFO 62060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2022-09-26 13:36:18.288  INFO 62060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-26 13:36:18.301  INFO 62060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-26 13:36:18.302  INFO 62060 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-26 13:36:18.379  INFO 62060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-26 13:36:18.380  INFO 62060 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2115 ms
+2022-09-26 13:36:18.539  INFO 62060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-26 13:36:18.875  INFO 62060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-26 13:36:18.889  INFO 62060 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:63e0f91a-a57b-4739-8731-383feb100a9e'
+2022-09-26 13:36:19.084  INFO 62060 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.13 by Redgate
+2022-09-26 13:36:19.084  INFO 62060 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2022-09-26 13:36:19.084  INFO 62060 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : 
+2022-09-26 13:36:19.102  INFO 62060 --- [restartedMain] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:h2:mem:63e0f91a-a57b-4739-8731-383feb100a9e (H2 2.1)
+2022-09-26 13:36:19.150  WARN 62060 --- [restartedMain] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022-09-26 13:36:19.176  INFO 62060 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.014s)
+2022-09-26 13:36:19.182  INFO 62060 --- [restartedMain] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2022-09-26 13:36:19.208  INFO 62060 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": << Empty Schema >>
+2022-09-26 13:36:19.213  INFO 62060 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Migrating schema "PUBLIC" to version "1 - create bookmarks table"
+2022-09-26 13:36:19.226  INFO 62060 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Migrating schema "PUBLIC" to version "2 - insert dummy data"
+2022-09-26 13:36:19.234  INFO 62060 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.028s)
+2022-09-26 13:36:19.332  INFO 62060 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-26 13:36:19.430  INFO 62060 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-26 13:36:19.689  INFO 62060 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-26 13:36:19.862  INFO 62060 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-26 13:36:20.581  INFO 62060 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-26 13:36:20.597  INFO 62060 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-26 13:36:21.105  WARN 62060 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-26 13:36:21.660  INFO 62060 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-26 13:36:21.665  INFO 62060 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-26 13:36:21.716  INFO 62060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-26 13:36:21.738  INFO 62060 --- [restartedMain] c.e.b.BookmarkerApiApplication           : Started BookmarkerApiApplication in 6.047 seconds (JVM running for 7.047)
+2022-09-26 13:36:22.115  INFO 62060 --- [RMI TCP Connection(1)-192.168.88.34] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-26 13:36:22.115  INFO 62060 --- [RMI TCP Connection(1)-192.168.88.34] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-26 13:36:22.117  INFO 62060 --- [RMI TCP Connection(1)-192.168.88.34] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-26 13:36:33.748  INFO 62060 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-26 13:36:33.962  WARN 62060 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-09-26 13:36:33.966  INFO 62060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-26 13:36:33.969  INFO 62060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
